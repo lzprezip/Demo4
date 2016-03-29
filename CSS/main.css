@@ -1,9 +1,47 @@
-*{margin: 0; padding: 0;}
+*{margin: 0; padding: 0;font-family: "HanHei SC","PingHei","PingFang SC","STHeitiSC-Light","Helvetica Neue","Helvetica","Arial";}
+.clear{ clear:both} 
+li{float: left;list-style: none;}
+
+/*以下是字体图标部分*/
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?kkh2sm');
+    src:    url('../fonts/icomoon.eot?kkh2sm#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?kkh2sm') format('truetype'),
+        url('../fonts/icomoon.woff?kkh2sm') format('woff'),
+        url('../fonts/icomoon.svg?kkh2sm#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-play1:before {
+    content: "\e900";
+}
+.icon-play1{ position: relative; top: 3px;}
+
 #header{margin: 0 auto; height: 44px;background: #333;line-height: 44px;} 
 #nav{width: 1030px; margin: 0 auto; }
 #logo{float: left;line-height: 44px;background-image: url(../images/logo.svg);width: 20px;height: 44px;}
 #nav ul{margin-left: 50px;}
-#nav li{float: left;display: block;margin: 0 43px;}
+#nav li{display: block;margin: 0 43px;}
 #nav a:hover{opacity: 0.6;transition:0.3s;}
-
 #banner{width: 100%; height: 750px;background: url(../images/cook.jpg) no-repeat;background-size: cover;background-position-y:23%;}
+#links{ width: 1000px; margin-left: 26%; float: left;margin-top: 250px;}
+#title{font-size: 60px;font-weight: 100; color: #fff; }
+#view{color: #5cc3f6; text-decoration: none; font-size: 28px; font-weight: 100;margin-left: 10%;margin-top:10px; float: left;}
+#links a:hover{color: #fff;}
