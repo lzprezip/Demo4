@@ -37,6 +37,15 @@ a:hover{text-decoration:underline; color: #000; }
 }
 .icon-play1{ position: relative; top: 3px;}
 
+/*定义HanHei SC字体*/
+@font-face{
+    font-family: 'HanHei SC';
+    src:url('../fonts/HanHei-SC-text.woff') format('woff');
+    src:url('../fonts/HanHei-SC-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*以下是导航部分*/
 #header{margin: 0 auto; height: 44px;background: #333;line-height: 44px;} 
 #nav{width: 1030px; margin: 0 auto; }
@@ -65,8 +74,8 @@ a:hover{text-decoration:underline; color: #000; }
 /*以下是footer部分*/
 #footer{background-color:#f2f2f2;width: 100%;height: 368px;}
 #text_content{width: 980px;height: 336px;padding: 32px 22px 0 22px;margin-left: auto;margin-right: auto;font-size: 12px;}
-.first_text{color: #333;font-weight: 500;}
-.second_text{color:#666;font-weight: 300;}
+.first_text{color: #333;font-weight: 600;}
+.second_text{color:#666;font-weight: 400;}
 #text_box1{width: 196px;line-height:1.666667;float: left;}
 #text_box2{width: 196px;line-height:1.666667;float: left;}
 #text_box3{width: 196px;line-height:1.666667;float: left;}
